@@ -1,0 +1,25 @@
+.navigation {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    bottom: 0;
+    width: 100px;
+    background-color: var(--secondary-color);
+    z-index: 1;
+}
+.hidden {
+    display: none;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.description {
+    text-align: center;
+    background-color: pink;
+    height: 40px;
+}
