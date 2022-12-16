@@ -71,14 +71,23 @@
 }
 
 .footer {
+	display: inline-block;
 	position: fixed;
 	bottom: 0;
 	left: 0;
 	right: 0;
-	z-index: 1;
+	display: flex;
+	justify-content: center;
 }
-.description {
+
+.footer-text {
+	display: inline-block;
+	height: 35px;
+	padding-top: 11px;
+	width: 346px;
+	border-top: 1px solid var(--main-color);
 	text-align: center;
-	background-color: pink;
-	height: 40px;
+	color: var(--main-color);
+	font-size: 11px;
+	line-height: 13.41px;
 }
